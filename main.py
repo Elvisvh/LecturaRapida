@@ -71,7 +71,7 @@ def iterables():
             break
         tiempo.sleep(secs.segundos)
         ventana.update()
-    print("Has leido un total de:", len(func.arregloPalabras), "palabras")
+    print("Has leido un total de:", len(func.arregloPalabras) - 1, "palabras")
       
         
 def StopBucle():

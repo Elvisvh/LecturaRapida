@@ -55,6 +55,8 @@ def palRec(text):
             
         
         i += 1
+    
+    print("leeras un total de:",len(arregloPalabras) - 1,"palabras")
 
 
 def SendPal(ar, label):
